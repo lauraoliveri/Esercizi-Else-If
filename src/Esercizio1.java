@@ -20,8 +20,8 @@ public class Esercizio1 {
             System.out.println("La tua valutazione: Sufficiente");
         }else if (voto >=60) {
             System.out.println("La tua valutazione: Rimandato");
-        }else if (voto < 60) {
+        }else
             System.out.println("La tua valutazione: Bocciato");
-        }
+
     }
 }
